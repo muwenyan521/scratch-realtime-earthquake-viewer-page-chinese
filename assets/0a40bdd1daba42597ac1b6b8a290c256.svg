@@ -1,82 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 224 64"
-   version="1.1"
-   height="64"
-   width="224"
-   id="svg7"
-   sodipodi:docname="0a40bdd1daba42597ac1b6b8a290c256.svg"
-   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs7" />
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:zoom="7.9151786"
-     inkscape:cx="112"
-     inkscape:cy="32.027073"
-     inkscape:window-width="1920"
-     inkscape:window-height="945"
-     inkscape:window-x="-9"
-     inkscape:window-y="40"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg7" />
-  <rect
-     stop-color="#000000"
-     fill-rule="evenodd"
-     fill="none"
-     ry="0"
-     rx="0"
-     height="64"
-     width="224"
-     id="rect1" />
-  <path
-     stop-color="#000000"
-     fill-rule="evenodd"
-     fill="#f1de2f"
-     d="m46 31h158c5.54 0 10 4.46 10 10v7c0 5.54-4.46 10-10 10h-158c-5.54 0-10-4.46-10-10v-7c0-5.54 4.46-10 10-10z"
-     id="path1" />
-  <g
-     fill="#191705"
-     id="g7" />
-  <text
-     xml:space="preserve"
-     style="font-weight:666;font-size:10.6667px;line-height:1.2;font-family:'Dream Han Sans SC';-inkscape-font-specification:'Dream Han Sans SC weight=666';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;font-style:normal;font-stretch:normal;font-variant:normal"
-     x="42.450085"
-     y="48.2617"
-     id="text7"><tspan
-       sodipodi:role="line"
-       id="tspan7"
-       x="42.450085"
-       y="48.2617">最大波</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:666;font-stretch:normal;font-size:10.6667px;line-height:1.2;font-family:'Dream Han Sans SC';-inkscape-font-specification:'Dream Han Sans SC weight=666';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
-     x="95.63903"
-     y="48.767059"
-     id="text8"><tspan
-       sodipodi:role="line"
-       id="tspan8"
-       x="95.63903"
-       y="48.767059">日</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:666;font-stretch:normal;font-size:10.6667px;line-height:1.2;font-family:'Dream Han Sans SC';-inkscape-font-specification:'Dream Han Sans SC weight=666';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
-     x="123.43373"
-     y="48.514381"
-     id="text9"><tspan
-       sodipodi:role="line"
-       id="tspan9"
-       x="123.43373"
-       y="48.514381">:</tspan></text>
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 224 64" version="1.1" height="64" width="224" id="svg7" ns1:docname="0a40bdd1daba42597ac1b6b8a290c256.svg" ns2:version="1.4.2 (f4327f4, 2025-05-13)">
+  <defs id="defs7"/>
+  <ns1:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" ns2:showpageshadow="0" ns2:pageopacity="0" ns2:pagecheckerboard="0" ns2:deskcolor="#505050" ns2:zoom="7.9151786" ns2:cx="112" ns2:cy="32.027073" ns2:window-width="1920" ns2:window-height="945" ns2:window-x="-9" ns2:window-y="40" ns2:window-maximized="1" ns2:current-layer="svg7"/>
+  <path stop-color="#000000" fill-rule="evenodd" fill="#f1de2f" d="m46 31h158c5.54 0 10 4.46 10 10v7c0 5.54-4.46 10-10 10h-158c-5.54 0-10-4.46-10-10v-7c0-5.54 4.46-10 10-10z" id="path1"/>
+  <g fill="#191705" id="g7"/>
+  <path d="M 0.0 0.0 L 224.0 0.0 L 224.0 64.0 L 0.0 64.0 Z" stop-color="#000000" fill-rule="evenodd" fill="none" id="rect1" data-original-element="rect"/>
+  <path d="M 42.95 43.33 L 52.60 43.33 L 52.60 44.14 L 47.53 44.14 L 47.53 47.26 Q 47.79 47.23 48.06 47.19 L 48.07 48.01 Q 47.79 48.04 47.53 48.07 L 47.53 49.16 L 46.55 49.16 L 46.55 48.19 Q 46.41 48.21 46.27 48.22 Q 45.36 48.32 43.69 48.52 Q 43.69 48.52 43.02 48.59 L 42.93 47.72 Q 43.39 47.67 43.93 47.62 L 43.93 44.14 L 42.95 44.14 Z M 44.28 39.60 L 51.30 39.60 L 51.30 42.82 L 44.28 42.82 Z M 47.91 44.70 L 51.61 44.70 L 51.78 44.67 L 52.36 44.90 Q 52.03 45.99 51.42 46.82 Q 51.15 47.17 50.86 47.48 Q 51.70 48.06 52.79 48.32 Q 52.63 48.46 52.28 48.93 Q 52.28 48.93 52.18 49.12 Q 51.04 48.77 50.16 48.10 Q 50.08 48.16 50.00 48.22 Q 49.19 48.78 48.27 49.13 Q 48.20 48.96 47.90 48.53 Q 47.90 48.53 47.76 48.39 Q 48.59 48.13 49.33 47.63 Q 49.42 47.57 49.51 47.51 Q 48.73 46.69 48.27 45.60 L 48.62 45.50 L 47.91 45.50 Z M 45.25 41.53 L 45.25 42.15 L 50.30 42.15 L 50.30 41.53 Z M 45.25 40.28 L 45.25 40.88 L 50.30 40.88 L 50.30 40.28 Z M 50.17 46.94 Q 50.42 46.70 50.63 46.43 Q 50.97 46.00 51.19 45.50 L 49.14 45.50 Q 49.51 46.31 50.17 46.94 Z M 46.55 47.36 L 46.55 46.80 L 44.85 46.80 L 44.85 47.54 Q 45.50 47.47 46.21 47.40 Q 46.39 47.38 46.55 47.36 Z M 46.55 46.08 L 46.55 45.46 L 44.85 45.46 L 44.85 46.08 Z M 46.55 44.74 L 46.55 44.14 L 44.85 44.14 L 44.85 44.74 Z M 53.76 42.24 L 57.77 42.24 Q 57.85 41.45 57.87 40.73 Q 57.90 39.94 57.91 39.26 L 58.99 39.26 Q 58.99 40.02 58.95 40.88 Q 58.92 41.54 58.85 42.24 L 63.18 42.24 L 63.18 43.27 L 59.26 43.27 Q 59.56 44.19 60.00 45.00 Q 60.58 46.10 62.27 47.72 Q 62.27 47.72 63.39 48.19 Q 63.26 48.29 62.97 48.64 Q 62.97 48.64 62.72 48.99 Q 62.72 48.99 62.63 49.13 Q 61.44 48.57 59.69 46.75 Q 59.69 46.75 59.08 45.54 Q 58.75 44.89 58.47 44.17 Q 58.43 44.33 58.38 44.51 Q 58.09 45.42 57.05 47.13 Q 57.05 47.13 55.47 48.59 Q 55.47 48.59 54.31 49.14 Q 54.18 48.93 53.76 48.45 Q 53.76 48.45 53.54 48.29 Q 54.65 47.79 56.18 46.47 Q 56.18 46.47 57.13 44.89 Q 57.13 44.89 57.38 44.05 Q 57.51 43.66 57.60 43.27 L 53.76 43.27 Z M 70.08 39.25 L 71.07 39.25 L 71.07 40.74 L 73.15 40.74 L 73.32 40.70 L 74.05 40.88 Q 73.86 41.48 73.38 42.69 Q 73.38 42.69 73.16 43.11 L 72.29 42.86 Q 72.48 42.48 72.67 41.92 Q 72.71 41.80 72.75 41.68 L 71.07 41.68 L 71.07 43.39 L 72.52 43.39 L 72.71 43.36 L 73.33 43.63 Q 72.96 45.11 72.24 46.20 Q 71.94 46.65 71.60 47.03 Q 71.81 47.20 72.04 47.36 Q 72.97 47.98 74.13 48.29 Q 74.01 48.40 73.77 48.70 Q 73.77 48.70 73.54 49.02 Q 73.54 49.02 73.47 49.16 Q 71.99 48.68 70.91 47.74 Q 70.74 47.89 70.55 48.03 Q 69.60 48.76 68.46 49.18 Q 68.40 49.06 68.17 48.73 Q 68.17 48.73 67.92 48.43 Q 67.92 48.43 67.81 48.33 Q 68.91 47.98 69.82 47.35 Q 70.02 47.19 70.22 47.05 Q 69.19 45.87 68.61 44.28 L 68.49 44.28 Q 68.48 44.55 68.46 44.84 Q 68.41 45.57 68.13 47.11 Q 68.13 47.11 67.59 48.55 Q 67.59 48.55 67.15 49.15 Q 67.07 49.06 66.76 48.86 Q 66.76 48.86 66.43 48.69 Q 66.43 48.69 66.30 48.65 Q 66.73 48.08 67.22 46.77 Q 67.22 46.77 67.48 45.37 Q 67.48 45.37 67.54 44.04 Q 67.54 44.04 67.54 43.45 L 67.54 40.74 L 70.08 40.74 Z M 64.38 48.42 Q 64.64 48.01 65.25 46.88 Q 65.25 46.88 65.86 45.60 Q 65.86 45.60 66.13 44.99 L 66.92 45.60 Q 66.68 46.16 66.12 47.36 Q 66.12 47.36 65.54 48.52 Q 65.54 48.52 65.27 49.03 Z M 70.90 46.39 Q 71.15 46.10 71.37 45.78 Q 71.83 45.12 72.11 44.28 L 69.56 44.28 Q 69.92 45.14 70.46 45.86 Q 70.66 46.13 70.90 46.39 Z M 68.51 43.39 L 70.08 43.39 L 70.08 41.68 L 68.51 41.68 Z M 64.14 42.96 L 64.70 42.21 Q 65.01 42.35 65.75 42.73 Q 65.75 42.73 66.41 43.11 Q 66.41 43.11 66.62 43.27 L 66.03 44.10 Q 65.84 43.93 65.18 43.53 Q 65.18 43.53 64.46 43.12 Q 64.46 43.12 64.14 42.96 Z M 64.74 40.07 L 65.31 39.35 Q 65.62 39.50 66.33 39.89 Q 66.33 39.89 66.98 40.29 Q 66.98 40.29 67.18 40.45 L 66.60 41.28 Q 66.40 41.10 65.76 40.67 Q 65.76 40.67 65.05 40.23 Q 65.05 40.23 64.74 40.07 Z" xml:space="preserve" style="font-weight:666;font-size:10.6667px;line-height:1.2;font-family:'Dream Han Sans SC';-inkscape-font-specification:'Dream Han Sans SC weight=666';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;font-style:normal;font-stretch:normal;font-variant:normal" id="text7" data-original-text="最大波" data-original-element="text"/>
+  <path d="M 97.42 40.45 L 104.60 40.45 L 104.60 49.50 L 103.53 49.50 L 103.53 48.84 L 98.46 48.84 L 98.46 49.55 L 97.42 49.55 Z M 103.53 47.83 L 103.53 45.10 L 98.46 45.10 L 98.46 47.83 Z M 103.53 44.10 L 103.53 41.47 L 98.46 41.47 L 98.46 44.10 Z" xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:666;font-stretch:normal;font-size:10.6667px;line-height:1.2;font-family:'Dream Han Sans SC';-inkscape-font-specification:'Dream Han Sans SC weight=666';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000" id="text8" data-original-text="日" data-original-element="text"/>
+  <path d="M 125.02 44.46 Q 124.68 44.46 124.20 43.98 Q 124.20 43.98 124.20 43.61 Q 124.20 43.22 124.68 42.73 Q 124.68 42.73 125.02 42.73 Q 125.38 42.73 125.85 43.22 Q 125.85 43.22 125.85 43.61 Q 125.85 43.98 125.38 44.46 Q 125.38 44.46 125.02 44.46 Z M 125.02 48.67 Q 124.68 48.67 124.20 48.16 Q 124.20 48.16 124.20 47.80 Q 124.20 47.42 124.68 46.93 Q 124.68 46.93 125.02 46.93 Q 125.38 46.93 125.85 47.42 Q 125.85 47.42 125.85 47.80 Q 125.85 48.16 125.38 48.67 Q 125.38 48.67 125.02 48.67 Z" xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:666;font-stretch:normal;font-size:10.6667px;line-height:1.2;font-family:'Dream Han Sans SC';-inkscape-font-specification:'Dream Han Sans SC weight=666';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000" id="text9" data-original-text=":" data-original-element="text"/>
 </svg>
