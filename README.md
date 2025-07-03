@@ -1,119 +1,119 @@
-# リアルタイム地震ビューアー
+# 实时地震观测器 (Real-time Earthquake Viewer)
 
 > [!IMPORTANT]
-> v1.6から独自のクラウド変数サーバーを使用するようになりました。この変更に伴い、利用規約とプライバシーポリシーを作成しました。[利用規約・プライバシーポリシー](terms.md)をご覧ください。  
-> [Scratch版](https://scratch.mit.edu/projects/636244032)や[TurboWarp版](https://turbowarp.org/636244032)では、それぞれ[Scratchのプライバシーポリシー](https://scratch.mit.edu/privacy_policy)、[TurboWarpのプライバシーポリシー](https://turbowarp.org/privacy.html)が適用されます。
+> **重要**
+> 自 v1.6 起，开始使用自建的云变量服务器。伴随此变更，我们制定了服务条款和隐私政策。请查阅 [服务条款与隐私政策](terms.md)。
+> 在 [Scratch 版本](https://scratch.mit.edu/projects/636244032) 和 [TurboWarp 版本](https://turbowarp.org/636244032) 中，将分别适用 [Scratch 的隐私政策](https://scratch.mit.edu/privacy_policy) 和 [TurboWarp 的隐私政策](https://turbowarp.org/privacy.html)。
 
 > [!NOTE]
-> このアプリケーションはScratchで作成した[リアルタイム地震ビューアー](https://scratch.mit.edu/projects/636244032)を[Turbowarp Packager](https://packager.turbowarp.org/#636244032)でパッケージ化したものです。  
-> このプロジェクトはScratchで共有されているため、[/assets](https://github.com/kotoho7/scratch-realtime-earthquake-viewer-page/tree/main/assets) にある画像や音声は [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.ja) になります。
+> **说明**
+> 此应用程序是使用 [Turbowarp Packager](https://packager.turbowarp.org/#636244032) 将 Scratch 上创建的 [实时地震观测器](https://scratch.mit.edu/projects/636244032) 打包而成的。
+> 由于该项目在 Scratch 上共享，位于 [/assets](https://github.com/kotoho7/scratch-realtime-earthquake-viewer-page/tree/main/assets) 目录下的图像和音频资源遵循 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.ja) 许可协议。
 
-## 概要
+## 概述
 
-リアルタイムに地震・津波情報を閲覧することができます。  
-基本的に操作は不要で、全自動でリアルタイムに受信した情報を表示します。
+可以实时浏览地震和海啸信息。
+基本无需操作，能够全自动显示实时接收到的信息。
 
-アプリ内タブごとに、以下の情報を閲覧することができます。
+通过应用程序内的不同标签页，可以查看以下信息：
 
-- **地震情報**
+*   **地震信息**
+    显示地震发生后数分钟内由气象厅发布的 **震度速报**、**震源信息**、**地震信息** 和 **长周期地震动信息**，并进行实时更新。这些地震信息与电视或气象厅官网上可查看的地震信息相同。
+    除最新地震外，还可以查看过去9次的地震记录。
 
-  地震発生後数分で気象庁から発表される **震度速報**, **震源情報**, **地震情報**, **長周期地震動情報** をリアルタイムに更新して表示します。この地震情報はTVや気象庁HPで閲覧できる地震情報と同様です。  
-  最新地震の他、過去9件の地震履歴を見ることができます。
+*   **实时信息 (紧急地震速报)**
+    显示地震发生后，由气象厅立即发布的 **紧急地震速报（预报）** 以及基于防灾科学技术研究所强震监测数据的 **实时震度**。
+    这些信息 **实时性极高**，但请注意它们包含预测值或等效值，因此 **仅供参考**。
 
-- **リアルタイム情報 (緊急地震速報)**
+*   **海啸预报·海啸观测信息**
+    显示伴随地震等事件由气象厅发布的 **大海啸警报**、**海啸警报**、**海啸注意报**、**海啸预报**，以及实际观测到海啸时的 **海啸观测相关信息**，并进行实时更新。
+    可以查看各地的海啸预测高度、预计到达时间以及观测到的海啸高度。
 
-  地震発生直後に、気象庁から発表される **緊急地震速報（予報）**, 防災科研の強震モニタを元にした **リアルタイム震度** を表示します。  
-  これらの情報は**非常に高いリアルタイム性**がありますが、予測値や相当値を含むため**参考値**であることに留意が必要です。
+此应用程序使用的气象厅实时电文数据，主要从 [Project DM-D.S.S (dmdata.jp)](https://dmdata.jp/) 接收。
+通过 WebSocket 与服务器保持常时连接，能够即时接收气象厅发布的信息。
 
-- **津波予報・津波観測情報**
+## 使用方法·安装方法
 
-  地震等に伴い気象庁から発表される **大津波警報**, **津波警報**, **津波注意報**, **津波予報** と、実際に津波を観測した際の **津波観測に関する情報** をリアルタイムに更新して表示します。  
-  各地の津波予想高さや到達予想時間、観測された津波の高さを見ることができます。
+作为 Web 应用程序，只需访问 [网站](https://kotoho7.github.io/scratch-realtime-earthquake-viewer-page/) 即可使用。
 
-このアプリケーションで使用されている気象庁のリアルタイム電文については、基本的に [Project DM-D.S.S (dmdata.jp)](https://dmdata.jp/) からデータを受信しています。
-WebSocketによるサーバーへの常時接続を行うため、気象庁が発表する情報を即時的に受信することが可能です。  
+此外，它支持 PWA（渐进式 Web 应用），因此可以像原生应用一样安装到设备上。
+（并非所有设备和浏览器都支持此功能）
 
-## 利用方法・インストール方法
+*   **桌面版 Chrome 浏览器**
+    地址栏中的安装按钮 或 菜单 → 保存与共享 → 安装
 
-Webアプリケーションのため、[ウェブサイト](https://kotoho7.github.io/scratch-realtime-earthquake-viewer-page/) へアクセスするだけで利用できます。
+*   **iOS 设备**
+    共享 → 添加到主屏幕
 
-また、PWAに対応しているため、ネイティブアプリのようにデバイスへインストールすることができます。  
-(全ての端末・ブラウザで使用できるとは限りません)
+*   **Android 设备**
+    安装横幅 或 菜单 → 添加到主屏幕
 
-- デスクトップChromeの場合  
-  アドレスバーのインストールボタン または メニュー → 保存と共有 → インストール
+## 其他
 
-- iOSの場合  
-  共有 → ホーム画面に追加
+### 关于在直播或视频中使用
 
-- Androidの場合  
-  インストールバナー または メニュー → ホーム画面に追加
-
-## その他
-
-### 配信や動画への使用について
-
-このアプリケーションで表示される画面を配信や動画等に使用する場合について、特に個別の許可を取る必要はありません。
+在直播或视频等中使用此应用程序显示的画面时，无需特别获取单独许可。
 
 > [!WARNING]
-> ただし、動作の安定性や信頼性は一切保証できないため、利用者の自己責任で使用してください。
+> **警告**
+> 但是，无法保证其运行的稳定性和可靠性，请用户自行承担使用风险。
 
-### 問い合わせ
+### 联系咨询
 
-このプロジェクトに関する問い合わせは以下の場所で対応できます。
+有关此项目的咨询，可以通过以下渠道进行：
 
-- [製作者X](https://twitter.com/kotoho76)
-- [Scratch プロジェクトページ](https://scratch.mit.edu/projects/636244032)
-- [YouTube コミュニティ投稿](https://www.youtube.com/post/UgkxGV7Jutqt9kMEByTHdihpdSBVYzcl0_Ue)
+*   [创作者 X (原 Twitter)](https://twitter.com/kotoho76)
+*   [Scratch 项目页面](https://scratch.mit.edu/projects/636244032)
+*   [YouTube 社区帖子](https://www.youtube.com/post/UgkxGV7Jutqt9kMEByTHdihpdSBVYzcl0_Ue)
 
-## 緊急地震速報の注意事項
+## 关于紧急地震速报的注意事项
 
-このプロジェクトでは、高度利用者向けの **緊急地震速報（予報）** が表示されます。以下の特徴を踏まえて情報を活用してください。
+在此项目中，会显示面向高级用户的 **紧急地震速报（预报）**。请基于以下特点活用信息：
 
-- 地震発生後、数秒で情報が作成されるため、誤報が発生することがあります。
-- 地震検知直後の情報は震源やマグニチュード、予測震度の精度が低いことがあります。
-- 通常でも推定震度は1階級程度の誤差があります。
-- 深さ150kmより深い地震の場合、予想最大震度は発表されません（※実際の揺れに基づいて発表される場合もあります）。
+*   信息在地震发生后数秒内生成，因此可能出现误报。
+*   地震检测后的最初信息，其震源、震级和预测震度的精度可能较低。
+*   通常情况下，预估震度也存在约1个震度等级的误差。
+*   对于深度超过150公里的地震，不会发布预测最大震度（※ 有时会根据实际摇晃情况发布）。
 
-## アプリ内で使用される情報の取得元
+## 应用程序内使用信息的来源
 
-- 気象庁 緊急地震速報 (再配信許可取得済み) & 地震情報 & 津波情報  
-[Project DM(Disaster Mitigation)-Data Send Service](https://dmdata.jp/docs/telegrams/)
+*   气象厅 紧急地震速报 (已获得再分发许可) & 地震信息 & 海啸信息
+    [Project DM(Disaster Mitigation)-Data Send Service](https://dmdata.jp/docs/telegrams/)
 
-- 地震情報の更新 (2日前まで)  
-[気象庁 震度データベース検索](https://www.data.jma.go.jp/svd/eqdb/data/shindo/)
+*   地震信息更新 (至2天前)
+    [气象厅 震度数据库检索](https://www.data.jma.go.jp/svd/eqdb/data/shindo/)
 
-- (リアルタイム震度)  
-[防災科学技術研究所 長周期地震動モニタ](https://www.lmoni.bosai.go.jp/monitor/)
+*   (实时震度)
+    [防灾科学技术研究所 长周期地震动监测](https://www.lmoni.bosai.go.jp/monitor/)
 
-- (海底地震計)  
-[海洋状況表示システム(海しる) 強震動情報](https://www.msil.go.jp/)
+*   (海底地震计)
+    [海洋状况显示系统(海しる) 强震动信息](https://www.msil.go.jp/)
 
-## クレジット
+## 鸣谢 (Credits)
 
-### 作成にあたり参考にした記事
+### 制作过程中参考的文章
 
-- [多項式補間を使用して強震モニタ画像から数値データを決定する](https://qiita.com/NoneType1/items/a4d2cf932e20b56ca444)  
+*   [使用多项式插值从强震监测图像中确定数值数据](https://qiita.com/NoneType1/items/a4d2cf932e20b56ca444)
 
-### 日本地図
+### 日本地图
 
-- [気象庁 予報区等GISデータ](https://www.data.jma.go.jp/developer/gis.html)
-- [国土交通省 国土数値情報 湖沼データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W09-v2_2.html)
+*   [气象厅 预报区等 GIS 数据](https://www.data.jma.go.jp/developer/gis.html)
+*   [国土交通省 国土数值信息 湖泊数据](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W09-v2_2.html)
 
-### 世界地図
+### 世界地图
 
-- [Natural Earth 1:10m Cultural Vectors (Japan POV)](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
-- [NOAA ETOPO](https://www.ngdc.noaa.gov/mgg/global/)
+*   [Natural Earth 1:10m Cultural Vectors (Japan POV)](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+*   [NOAA ETOPO](https://www.ngdc.noaa.gov/mgg/global/)
 
-### フォント
+### 字体
 
-- [Akshar](https://fonts.google.com/specimen/Akshar)
-- [BIZ UDPGothic](https://fonts.google.com/specimen/BIZ+UDPGothic)  
-※どちらも SIL Open Font License
+*   [Akshar](https://fonts.google.com/specimen/Akshar)
+*   [BIZ UDPGothic](https://fonts.google.com/specimen/BIZ+UDPGothic)
+    ※ 两者均遵循 SIL Open Font License
 
-### 効果音
+### 音效
 
-- [OtoLogic ニュース テロップ](https://otologic.jp/free/se/news-accent01.html)
+*   [OtoLogic 新闻 提示音](https://otologic.jp/free/se/news-accent01.html)
 
-※効果音のチョイスは [BSC24 地震警戒放送２４時](https://ch.nicovideo.jp/bousai-share) を参考にしています。  
-※揺れ検知の効果音は [JQuake](https://jquake.net/) の効果音を参考にして作成しています。
+※ 音效的选择参考了 [BSC24 地震警戒放送２４时](https://ch.nicovideo.jp/bousai-share)。
+※ 摇晃检测音效参考了 [JQuake](https://jquake.net/) 的音效制作。
