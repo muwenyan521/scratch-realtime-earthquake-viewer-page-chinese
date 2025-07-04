@@ -1,12 +1,59 @@
-<?xml version="1.0" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="100" height="100" viewBox="0,0,100,100" id="svg5" ns1:docname="1ae7694a1fa5d08aeca47a1ff1f609fb.svg" ns2:version="1.4.2 (f4327f4, 2025-05-13)">
-  <defs id="defs5"/>
-  <ns1:namedview id="namedview5" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" ns2:showpageshadow="0" ns2:pageopacity="0" ns2:pagecheckerboard="0" ns2:deskcolor="#505050" ns2:zoom="7.31" ns2:cx="50" ns2:cy="50" ns2:window-width="1920" ns2:window-height="945" ns2:window-x="-9" ns2:window-y="40" ns2:window-maximized="1" ns2:current-layer="svg5"/>
-  <g transform="translate(-190,-130)" id="g5">
-    <g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal" id="g4">
-      <path d="M190,230v-100h100v100z" fill="none" stroke="#959196" stroke-width="0" id="path1"/>
-      <path d="M190,230v-100h100v100z" fill="none" stroke="#959196" stroke-width="0" id="path2"/>
-    </g>
-  </g>
-  <path d="M 47.99 35.36 L 50.96 35.82 Q 50.59 38.13 49.98 40.30 L 62.35 40.30 L 62.35 43.21 L 55.60 43.21 L 55.60 50.51 L 63.54 50.51 L 63.54 53.43 L 55.60 53.43 L 55.60 65.04 L 52.54 65.04 L 52.54 53.43 L 44.05 53.43 L 44.05 50.51 L 52.54 50.51 L 52.54 43.21 L 49.01 43.21 Q 47.93 46.02 46.55 48.01 Q 46.23 47.79 45.21 47.24 Q 45.21 47.24 44.15 46.77 Q 44.15 46.77 43.77 46.60 Q 44.85 45.29 46.46 41.74 Q 46.46 41.74 47.66 37.55 Q 47.66 37.55 47.99 35.36 Z M 34.01 45.22 L 41.85 45.22 L 41.85 58.93 L 44.91 56.91 Q 45.05 57.52 45.49 59.02 Q 45.49 59.02 45.68 59.47 Q 43.77 60.82 41.34 62.54 Q 41.34 62.54 39.99 63.54 Q 39.99 63.54 39.35 64.11 Q 39.35 64.11 39.16 64.36 Q 39.07 63.97 38.49 62.93 Q 38.49 62.93 37.85 61.93 Q 37.85 61.93 37.59 61.61 Q 38.04 61.32 38.93 59.97 Q 38.93 59.97 38.93 58.96 L 38.93 48.15 L 34.01 48.15 Z M 36.38 37.93 L 38.32 36.11 Q 39.19 36.82 41.15 38.54 Q 41.15 38.54 42.87 40.24 Q 42.87 40.24 43.38 40.91 L 41.30 43.05 Q 40.79 42.35 39.13 40.55 Q 39.13 40.55 37.24 38.69 Q 37.24 38.69 36.38 37.93 Z" xml:space="preserve" style="font-weight:613;font-size:32px;line-height:1.2;font-family:'Dream Han Sans SC';-inkscape-font-specification:'Dream Han Sans SC weight=613';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ff0000;fill-opacity:1" id="text5" data-original-text="许" data-original-element="text"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="100"
+   height="100"
+   viewBox="0,0,100,100"
+   id="svg5"
+   sodipodi:docname="1ae7694a1fa5d08aeca47a1ff1f609fb.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs5" /><sodipodi:namedview
+     id="namedview5"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="7.31"
+     inkscape:cx="50"
+     inkscape:cy="50"
+     inkscape:window-width="1920"
+     inkscape:window-height="945"
+     inkscape:window-x="-9"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" /><g
+     transform="translate(-190,-130)"
+     id="g5"><g
+       data-paper-data="{&quot;isPaintingLayer&quot;:true}"
+       fill-rule="nonzero"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       stroke-miterlimit="10"
+       stroke-dasharray=""
+       stroke-dashoffset="0"
+       style="mix-blend-mode: normal"
+       id="g4"><path
+         d="M190,230v-100h100v100z"
+         fill="none"
+         stroke="#959196"
+         stroke-width="0"
+         id="path1" /><path
+         d="M190,230v-100h100v100z"
+         fill="none"
+         stroke="#959196"
+         stroke-width="0"
+         id="path2" /></g></g><path
+     d="m 28.427756,33.718413 2.97,0.46 q -0.37,2.31 -0.98,4.48 h 12.37 v 2.91 h -6.75 v 7.3 h 7.94 v 2.92 h -7.94 v 11.61 h -3.06 v -11.61 h -8.49 v -2.92 h 8.49 v -7.3 h -3.53 q -1.08,2.81 -2.46,4.8 -0.32,-0.22 -1.34,-0.77 0,0 -1.06,-0.47 0,0 -0.38,-0.17 1.08,-1.31 2.69,-4.86 0,0 1.2,-4.19 z m -13.98,9.86 h 7.84 v 13.71 l 3.06,-2.02 q 0.14,0.61 0.58,2.11 0,0 0.19,0.45 -1.91,1.35 -4.34,3.07 0,0 -1.35,1 0,0 -0.64,0.57 0,0 -0.19,0.25 -0.09,-0.39 -0.67,-1.43 0,0 -0.64,-1 0,0 -0.26,-0.32 0.45,-0.29 1.34,-1.64 0,0 0,-1.01 v -10.81 h -4.92 z m 2.37,-7.29 1.94,-1.82 q 0.87,0.71 2.83,2.43 0,0 1.72,1.7 0,0 0.51,0.67 l -2.08,2.14 q -0.51,-0.7 -2.17,-2.5 0,0 -1.89,-1.86 z"
+     xml:space="preserve"
+     style="font-weight:613;font-size:32px;line-height:1.2;font-family:'Dream Han Sans SC';-inkscape-font-specification:'Dream Han Sans SC weight=613';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ff0000;fill-opacity:1"
+     id="text5"
+     data-original-text="许"
+     data-original-element="text" /></svg>
